@@ -1,0 +1,33 @@
+{
+  "model_version": "v1.0.0",
+  "training_date": "2026-08-23T07:26:49",
+  "model_type": "HistGradientBoostingRegressor",
+  "preprocessing": "log+ratios+ohe+standardize",
+  "expected_columns": [
+    "longitude",
+    "latitude",
+    "housing_median_age",
+    "total_rooms",
+    "total_bedrooms",
+    "population",
+    "households",
+    "median_income",
+    "ocean_proximity"
+  ],
+  "expected_dtypes": {
+    "longitude": "float64",
+    "latitude": "float64",
+    "housing_median_age": "float64",
+    "total_rooms": "float64",
+    "total_bedrooms": "float64",
+    "population": "float64",
+    "households": "float64",
+    "median_income": "float64",
+    "ocean_proximity": "object"
+  },
+  "metrics": {
+    "test_r2": 0.8426943537565628
+  },
+  "training_rows": 16512,
+  "test_rows": 4128
+}
